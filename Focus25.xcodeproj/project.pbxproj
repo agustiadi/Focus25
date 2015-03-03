@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84459541AA21499006782AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84459531AA21499006782AE /* AppDelegate.swift */; };
+		A84459591AA21499006782AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84459571AA21499006782AE /* Main.storyboard */; };
+		A844595B1AA21499006782AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A844595A1AA21499006782AE /* Images.xcassets */; };
+		A844595E1AA21499006782AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A844595C1AA21499006782AE /* LaunchScreen.xib */; };
+		A844596A1AA21499006782AE /* Focus25Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84459691AA21499006782AE /* Focus25Tests.swift */; };
+		A84459741AA2150B006782AE /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84459731AA2150B006782AE /* SelectionTableViewController.swift */; };
+		A84459761AA2C631006782AE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84459751AA2C631006782AE /* DetailsViewController.swift */; };
+		A84459781AA2D453006782AE /* lake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A84459771AA2D453006782AE /* lake.mp3 */; };
+		A844597A1AA2D45E006782AE /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A84459791AA2D45E006782AE /* rain.mp3 */; };
+		A844597C1AA2D467006782AE /* snow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A844597B1AA2D467006782AE /* snow.mp3 */; };
+		A844597E1AA2D48B006782AE /* sun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A844597D1AA2D48B006782AE /* sun.mp3 */; };
+		A84459801AA2D4B1006782AE /* stars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A844597F1AA2D4B1006782AE /* stars.mp3 */; };
+		A84459821AA2D4F4006782AE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84459811AA2D4F4006782AE /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A84459641AA21499006782AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84459461AA21499006782AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A844594D1AA21499006782AE;
+			remoteInfo = Focus25;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A844594E1AA21499006782AE /* Focus25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focus25.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84459521AA21499006782AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84459531AA21499006782AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A84459581AA21499006782AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A844595A1AA21499006782AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A844595D1AA21499006782AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A84459631AA21499006782AE /* Focus25Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Focus25Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84459681AA21499006782AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84459691AA21499006782AE /* Focus25Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus25Tests.swift; sourceTree = "<group>"; };
+		A84459731AA2150B006782AE /* SelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
+		A84459751AA2C631006782AE /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A84459771AA2D453006782AE /* lake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lake.mp3; sourceTree = "<group>"; };
+		A84459791AA2D45E006782AE /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		A844597B1AA2D467006782AE /* snow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snow.mp3; sourceTree = "<group>"; };
+		A844597D1AA2D48B006782AE /* sun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sun.mp3; sourceTree = "<group>"; };
+		A844597F1AA2D4B1006782AE /* stars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stars.mp3; sourceTree = "<group>"; };
+		A84459811AA2D4F4006782AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A844594B1AA21499006782AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84459821AA2D4F4006782AE /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84459601AA21499006782AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A84459451AA21499006782AE = {
+			isa = PBXGroup;
+			children = (
+				A84459811AA2D4F4006782AE /* AVFoundation.framework */,
+				A84459501AA21499006782AE /* Focus25 */,
+				A84459661AA21499006782AE /* Focus25Tests */,
+				A844594F1AA21499006782AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A844594F1AA21499006782AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A844594E1AA21499006782AE /* Focus25.app */,
+				A84459631AA21499006782AE /* Focus25Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A84459501AA21499006782AE /* Focus25 */ = {
+			isa = PBXGroup;
+			children = (
+				A84459831AA2DB6A006782AE /* mp3 */,
+				A84459531AA21499006782AE /* AppDelegate.swift */,
+				A84459571AA21499006782AE /* Main.storyboard */,
+				A84459751AA2C631006782AE /* DetailsViewController.swift */,
+				A84459731AA2150B006782AE /* SelectionTableViewController.swift */,
+				A844595A1AA21499006782AE /* Images.xcassets */,
+				A844595C1AA21499006782AE /* LaunchScreen.xib */,
+				A84459511AA21499006782AE /* Supporting Files */,
+			);
+			path = Focus25;
+			sourceTree = "<group>";
+		};
+		A84459511AA21499006782AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A84459521AA21499006782AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A84459661AA21499006782AE /* Focus25Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A84459691AA21499006782AE /* Focus25Tests.swift */,
+				A84459671AA21499006782AE /* Supporting Files */,
+			);
+			path = Focus25Tests;
+			sourceTree = "<group>";
+		};
+		A84459671AA21499006782AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A84459681AA21499006782AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A84459831AA2DB6A006782AE /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				A844597F1AA2D4B1006782AE /* stars.mp3 */,
+				A844597D1AA2D48B006782AE /* sun.mp3 */,
+				A844597B1AA2D467006782AE /* snow.mp3 */,
+				A84459771AA2D453006782AE /* lake.mp3 */,
+				A84459791AA2D45E006782AE /* rain.mp3 */,
+			);
+			name = mp3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A844594D1AA21499006782AE /* Focus25 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A844596D1AA21499006782AE /* Build configuration list for PBXNativeTarget "Focus25" */;
+			buildPhases = (
+				A844594A1AA21499006782AE /* Sources */,
+				A844594B1AA21499006782AE /* Frameworks */,
+				A844594C1AA21499006782AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Focus25;
+			productName = Focus25;
+			productReference = A844594E1AA21499006782AE /* Focus25.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A84459621AA21499006782AE /* Focus25Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84459701AA21499006782AE /* Build configuration list for PBXNativeTarget "Focus25Tests" */;
+			buildPhases = (
+				A844595F1AA21499006782AE /* Sources */,
+				A84459601AA21499006782AE /* Frameworks */,
+				A84459611AA21499006782AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84459651AA21499006782AE /* PBXTargetDependency */,
+			);
+			name = Focus25Tests;
+			productName = Focus25Tests;
+			productReference = A84459631AA21499006782AE /* Focus25Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A84459461AA21499006782AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Agustiadi;
+				TargetAttributes = {
+					A844594D1AA21499006782AE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A84459621AA21499006782AE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A844594D1AA21499006782AE;
+					};
+				};
+			};
+			buildConfigurationList = A84459491AA21499006782AE /* Build configuration list for PBXProject "Focus25" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A84459451AA21499006782AE;
+			productRefGroup = A844594F1AA21499006782AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A844594D1AA21499006782AE /* Focus25 */,
+				A84459621AA21499006782AE /* Focus25Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A844594C1AA21499006782AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A844597E1AA2D48B006782AE /* sun.mp3 in Resources */,
+				A84459591AA21499006782AE /* Main.storyboard in Resources */,
+				A844597A1AA2D45E006782AE /* rain.mp3 in Resources */,
+				A844595E1AA21499006782AE /* LaunchScreen.xib in Resources */,
+				A84459801AA2D4B1006782AE /* stars.mp3 in Resources */,
+				A844595B1AA21499006782AE /* Images.xcassets in Resources */,
+				A84459781AA2D453006782AE /* lake.mp3 in Resources */,
+				A844597C1AA2D467006782AE /* snow.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84459611AA21499006782AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A844594A1AA21499006782AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84459741AA2150B006782AE /* SelectionTableViewController.swift in Sources */,
+				A84459541AA21499006782AE /* AppDelegate.swift in Sources */,
+				A84459761AA2C631006782AE /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A844595F1AA21499006782AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A844596A1AA21499006782AE /* Focus25Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A84459651AA21499006782AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A844594D1AA21499006782AE /* Focus25 */;
+			targetProxy = A84459641AA21499006782AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A84459571AA21499006782AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84459581AA21499006782AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A844595C1AA21499006782AE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A844595D1AA21499006782AE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A844596B1AA21499006782AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A844596C1AA21499006782AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A844596E1AA21499006782AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Focus25/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A844596F1AA21499006782AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Focus25/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A84459711AA21499006782AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Focus25Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus25.app/Focus25";
+			};
+			name = Debug;
+		};
+		A84459721AA21499006782AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Focus25Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus25.app/Focus25";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A84459491AA21499006782AE /* Build configuration list for PBXProject "Focus25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A844596B1AA21499006782AE /* Debug */,
+				A844596C1AA21499006782AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A844596D1AA21499006782AE /* Build configuration list for PBXNativeTarget "Focus25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A844596E1AA21499006782AE /* Debug */,
+				A844596F1AA21499006782AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84459701AA21499006782AE /* Build configuration list for PBXNativeTarget "Focus25Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84459711AA21499006782AE /* Debug */,
+				A84459721AA21499006782AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A84459461AA21499006782AE /* Project object */;
+}
